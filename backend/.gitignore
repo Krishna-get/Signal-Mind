@@ -1,0 +1,38 @@
+# --- Frontend (Next.js / Node) ---
+# Dependencies (NEVER upload these)
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js Build Output
+.next/
+out/
+
+# Production Build
+build/
+dist/
+
+# --- Backend (Python) ---
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Machine Learning models (If they are very large)
+# Keep your .pkl if it's small, but if it gets over 100MB, add it here:
+# signal_classifier.pkl
+
+# --- OS / Misc ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
